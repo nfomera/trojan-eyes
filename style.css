@@ -42,10 +42,10 @@ header p {
 }
 
 /* Logo Styling */
-header .circle_logo {
+header .logo {
     max-width: 80px;
     height: auto;
-    border-radius: 50%; /* Circle effect */
+    border-radius: 50%;
 }
 
 /* Navigation Bar */
@@ -105,16 +105,38 @@ main ul li {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Team Section */
+.team-photo {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.team-list li {
+    background: #16a085;
+    color: #ecf0f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     text-align: center;
     background: #2c3e50;
     color: #ecf0f1;
     padding: 15px 0;
-    position: fixed;
-    bottom: 0;
     width: 100%;
-    font-size: 0.9rem;
 }
 
 /* Button Styling */
@@ -148,7 +170,7 @@ a.button:hover {
         margin-bottom: 10px;
     }
 
-    header .circle_logo {
+    header .logo {
         margin-top: 15px;
     }
 
