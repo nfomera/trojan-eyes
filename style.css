@@ -119,3 +119,11 @@ button:hover,
 a.button:hover {
     background: #1abc9c;
 }
+
+/* Logo Styling */
+header .logo {
+    max-width: 150px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto; /* Center and add spacing below */
+}
