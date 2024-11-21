@@ -121,7 +121,7 @@ a.button:hover {
 }
 
 /* Logo Styling */
-header .logo {
+header .circle_logo {
     max-width: 150px; /* Adjust size as needed */
     height: auto;
     display: block;
